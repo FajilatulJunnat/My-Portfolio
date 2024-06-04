@@ -21,6 +21,7 @@
     .sidebar-nav{
       transform: none !important;
       visibility: visible !important;
+    
     } 
     .navbar{
         transform: none;
@@ -28,10 +29,27 @@
     }
 }
 
+.active{
+    color: #76ABAE !important;
+}
+.nav-item .nav-link:active{
+    color: #76ABAE !important;
+}
+.nav-item .nav-link:hover{
+    color: #76ABAE !important;
+}
+.social{
+    transform: scale(1);
+    transition: 0.5s ease-in-out;
+}
+.social:hover{
+    color: #76ABAE !important;
+    transform:scale(1.2) ;
+}
 /* first section */
 .bg-first-section{
     background-image:url(./b.png);
-   
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
@@ -173,8 +191,49 @@ div .dot{
  }
  /* about me  */
 .bg-about{
+    /* background-color: #374045; */
+    background-color: #212529 ;
+    position: relative; 
+    z-index: -3;
+    /* background-color: #343a40 !important; */
+}
+.bg-about::before{
+    margin: 2rem; 
+    content: "about me"; 
+    position: absolute; 
+    text-transform: uppercase;
+    color: #2b2d30!important;
+    top: 0; 
+    left: 20%; 
+    z-index: -1; 
+    font-size: 8vw;
+    font-weight: bold;
     
 }
+.bg-about-1{
+    background-color: #212529;
+}
  .about-h{
-    color:  #EAB2A0 !important;
+    color:  #76ABAE !important;
  }
+.slide-ber-size{
+    width: 10%;
+}
+.progress-bar{
+    background-color: #76ABAE !important;
+}
+.bg-img{
+    background-color: #76ABAE !important;
+}
+.btn-2{
+    background-color: #76ABAE !important;
+    color: white !important;
+}
+.btn-2:hover{
+    background-color: #21252900 !important;
+    border:  2px solid #76ABAE !important;
+}
+/* counter */
+.bg-counter{
+    background-color: black;
+}
