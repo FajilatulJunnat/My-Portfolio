@@ -210,9 +210,7 @@ div .dot{
     font-weight: bold;
     
 }
-.bg-about-1{
-    background-color: #212529;
-}
+
  .about-h{
     color:  #76ABAE !important;
  }
@@ -234,6 +232,48 @@ div .dot{
     border:  2px solid #76ABAE !important;
 }
 /* counter */
-.bg-counter{
+/* .bg-counter{
     background-color: black;
+} */
+.border-color{
+    border-right:1px solid #76ABAE ;
+}
+@media screen and (min-width:200px) and (max-width: 991px){
+    .border-color{
+        border-right:none !important ;
+    }
+}
+/* service */
+.bg-service{
+    background-color: #374045;  
+    position: relative; 
+    z-index: -3;
+}
+.bg-service::before{
+    margin: 2rem; 
+    content: "service"; 
+    position: absolute; 
+    text-transform: uppercase;
+    color: #2b2d30!important;
+    top: 0; 
+    left: 28%; 
+    z-index: -1; 
+    font-size: 8vw;
+    font-weight: bold;
+}
+.bg-service-1{
+    background-color:#374045 ;
+}
+.icon{
+    color: #76ABAE !important;
+}
+.bg-card{
+    background-color: #374045 !important;
+}
+.bg-card:hover{
+    background-color: #76ABAE !important;
+}
+.bg-card .icon:hover{
+    color: white !important;
+    background-color: #76ABAE !important;
 }
