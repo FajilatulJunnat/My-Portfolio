@@ -267,13 +267,38 @@ div .dot{
 .icon{
     color: #76ABAE !important;
 }
-.bg-card{
+.bg-ser-card{
     background-color: #374045 !important;
 }
-.bg-card:hover{
+.bg-ser-card:hover{
     background-color: #76ABAE !important;
 }
 .bg-card .icon:hover{
     color: white !important;
+    background-color: #76ABAE !important;
+}
+/* resume */
+.bg-resume{
+    background-color: #212529 ;
+    position: relative; 
+    z-index: -3;  
+}
+.bg-resume::before{
+    margin: 2rem; 
+    content: "summary"; 
+    position: absolute; 
+    text-transform: uppercase;
+    color: #2b2d30!important;
+    top: 0; 
+    left: 21%; 
+    z-index: -1; 
+    font-size: 8vw;
+    font-weight: bold;
+}
+.head-color{
+    color: #76ABAE !important;
+}
+/* skills */
+.bg-gress{
     background-color: #76ABAE !important;
 }
