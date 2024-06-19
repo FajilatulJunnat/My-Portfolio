@@ -23,6 +23,7 @@
       visibility: visible !important;
     
     } 
+    
     .navbar{
         transform: none;
         visibility:hidden !important;
@@ -408,4 +409,61 @@ div .dot{
 }
 .img-card:hover .port-3{
     bottom: 0%;
+}
+/* contact */
+.bg-contact{
+    background-color: #212529 ;
+    position: relative; 
+    z-index: -3;  
+}
+.bg-contact::before{
+    margin: 2rem; 
+    content: "contact"; 
+    position: absolute; 
+    text-transform: uppercase;
+    color: #2b2d30!important;
+    top: 0; 
+    left: 24%; 
+    z-index: -1; 
+    font-size: 8vw;
+    font-weight: bold;
+}
+.contact-icon{
+  color: #76ABAE !important; 
+}
+.foo-icon li::before{
+    content: attr(data-tooltip);
+    width: 100px;
+    height: 40px;
+    background-color: #374045 ;
+  
+    position: absolute;
+    top: -50px;
+    
+    left: -30px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 5px;
+   word-wrap: break-word;
+   transition: all 0.5 ease;
+   opacity: 0;
+}
+.foo-icon li::after{
+ content: "";
+ position: absolute;
+ top: -10px;
+ left: 3px;
+ border-left: 10px solid transparent;
+ border-right: 10px solid transparent;
+ border-top: 10px solid #374045 ;
+ border-bottom: 10px solid transparent;
+ transition: all 0.5 ease;
+ opacity: 0;
+}
+.foo-icon li:hover::before,
+.foo-icon li:hover::after{
+    opacity: 1;
+}
+.input-color{
+    background-color: #212121 !important;
 }
