@@ -71,7 +71,7 @@ background: linear-gradient(to right, #76ABAE 0%, #ffffff 100%);
 }
 /* first section */
 .bg-first-section{
-    background-image:url(./b.png);
+    background-image:url(./image/b.png);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -433,7 +433,7 @@ div .dot{
 }
 /* hire me */
 .bg-hire{
-    background-image: url(./blue-technology-background.jpg);
+    background-image: url(./image//blue-technology-background.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
