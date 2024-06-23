@@ -1,4 +1,16 @@
+body{
+    /* google font */
 
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+ /* poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  } */
+}
 /* navber */
 
 /* asidebar */
@@ -28,6 +40,16 @@
         transform: none;
         visibility:hidden !important;
     }
+}
+.name{
+    /* background: -webkit-linear-gradient( #76ABAE,#eee);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    background: #76ABAE;
+background: linear-gradient(to right, #76ABAE 0%, #ffffff 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+  
 }
 
 .active{
@@ -212,6 +234,39 @@ div .dot{
     
 }
 
+@media screen and (min-width:200px) and (max-width: 570px){
+   
+    .bg-about::before{
+       
+        top: 15%; 
+        left: 17%; 
+        z-index: -1; 
+        font-size: 10vw;
+       
+    }
+}
+@media screen and (min-width:571px) and (max-width: 771px){
+   
+    .bg-about::before{
+       
+        top: 12%; 
+        left: 18%; 
+        z-index: -1; 
+        font-size: 10vw;
+       
+    }
+}
+@media screen and (min-width:771px) and (max-width: 991px){
+   
+    .bg-about::before{
+       
+        top: 7%; 
+        left: 19%; 
+        z-index: -1; 
+        font-size: 10vw;
+       
+    }
+}
  .about-h{
     color:  #76ABAE !important;
  }
@@ -262,6 +317,39 @@ div .dot{
     font-size: 8vw;
     font-weight: bold;
 }
+@media screen and (min-width:200px) and (max-width: 570px){
+   
+    .bg-service::before{
+       
+        top: 15%; 
+        left: 23%; 
+        z-index: -1; 
+        font-size: 10vw;
+       
+    }
+}
+@media screen and (min-width:571px) and (max-width: 771px){
+   
+    .bg-service::before{
+       
+        top: 12%; 
+        left: 23%; 
+        z-index: -1; 
+        font-size: 10vw;
+       
+    }
+}
+@media screen and (min-width:771px) and (max-width: 991px){
+   
+    .bg-service::before{
+       
+        top: 7%; 
+        left: 25%; 
+        z-index: -1; 
+        font-size: 10vw;
+       
+    }
+}
 .bg-service-1{
     background-color:#374045 ;
 }
@@ -296,6 +384,41 @@ div .dot{
     font-size: 8vw;
     font-weight: bold;
 }
+
+@media screen and (min-width:200px) and (max-width: 570px){
+   
+    .bg-resume::before{
+       
+        top: 16%; 
+        left: 18%; 
+        z-index: -1; 
+        font-size: 10vw;
+       
+    }
+}
+@media screen and (min-width:571px) and (max-width: 771px){
+   
+    .bg-resume::before{
+       
+        top: 12%; 
+        left: 18%; 
+        z-index: -1; 
+        font-size: 10vw;
+       
+    }
+}
+@media screen and (min-width:771px) and (max-width: 991px){
+   
+    .bg-resume::before{
+       
+        top: 7%; 
+        left: 19%; 
+        z-index: -1; 
+        font-size: 10vw;
+       
+    }
+}
+
 .head-color{
     color: #76ABAE !important;
 }
@@ -346,6 +469,41 @@ div .dot{
     font-size: 8vw;
     font-weight: bold;
 }
+
+@media screen and (min-width:200px) and (max-width: 570px){
+   
+    .bg-portfolio::before{
+       
+        top: 18%; 
+        left: 17%; 
+        z-index: -1; 
+        font-size: 10vw;
+       
+    }
+}
+@media screen and (min-width:571px) and (max-width: 771px){
+   
+    .bg-portfolio::before{
+       
+        top: 14%; 
+        left: 18%; 
+        z-index: -1; 
+        font-size: 10vw;
+       
+    }
+}
+@media screen and (min-width:771px) and (max-width: 991px){
+   
+    .bg-portfolio::before{
+       
+        top: 7%; 
+        left: 19%; 
+        z-index: -1; 
+        font-size: 10vw;
+       
+    }
+}
+
 .bg-portfolio-1{
     background-color:#374045 ;
 }
@@ -428,6 +586,41 @@ div .dot{
     font-size: 8vw;
     font-weight: bold;
 }
+
+@media screen and (min-width:200px) and (max-width: 570px){
+   
+    .bg-contact::before{
+       
+        top: 15%; 
+        left: 20%; 
+        z-index: -1; 
+        font-size: 10vw;
+       
+    }
+}
+@media screen and (min-width:571px) and (max-width: 771px){
+   
+    .bg-contact::before{
+       
+        top: 10%; 
+        left: 23%; 
+        z-index: -1; 
+        font-size: 10vw;
+       
+    }
+}
+@media screen and (min-width:771px) and (max-width: 991px){
+   
+    .bg-contact::before{
+       
+        top: 7%; 
+        left: 23%; 
+        z-index: -1; 
+        font-size: 10vw;
+       
+    }
+}
+
 .contact-icon{
   color: #76ABAE !important; 
 }
